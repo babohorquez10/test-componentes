@@ -57,4 +57,31 @@ i.challenge-calendar-icon {
   width: fit-content;
 }
 
+.team-member-component {
+  line-height: 3;
+}
+.team-member-component .img-team-member {
+  width: 50px;
+}
+.team-member-component .team-member-role {
+  float: right;
+  font-style: italic;
+  vertical-align: middle;
+}
+
+.team-member-ev-component {
+  line-height: 3;
+}
+.team-member-ev-component .img-team-member {
+  width: 50px;
+}
+.team-member-ev-component .team-member-ev {
+  float: right;
+  vertical-align: middle;
+}
+.team-member-ev-component .team-member-ev .btn-grade {
+  height: 36px;
+  line-height: 1;
+}
+
 /*# sourceMappingURL=kuepastrap.css.map */
