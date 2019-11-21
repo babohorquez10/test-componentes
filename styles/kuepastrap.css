@@ -1,0 +1,50 @@
+.challenge-card-component {
+  max-width: 400px;
+  min-height: 130px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+}
+.challenge-card-component .challenge-info {
+  margin: 0 auto;
+  margin: 15px 15px 0px;
+  display: inline-block;
+}
+.challenge-card-component .challenge-info p {
+  font-size: 12px;
+  margin: 0;
+}
+.challenge-card-component .challenge-info .challenge-roles {
+  margin: 15px 0;
+}
+.challenge-card-component .challenge-info .challenge-roles .img-role {
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+  margin: 0px 10px;
+}
+.challenge-card-component .challenge-dates {
+  border-left-color: #666;
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+.challenge-card-component .btn-challenge {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 18px;
+  border-radius: 30px;
+}
+.challenge-card-component .challenge-calendar {
+  font-size: 30px;
+}
+
+i.challenge-calendar-icon {
+  font-size: 30px;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+/*# sourceMappingURL=kuepastrap.css.map */
