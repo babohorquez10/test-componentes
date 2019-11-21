@@ -1,7 +1,6 @@
 .challenge-card-component {
 
   max-width: 400px;
-  min-height: 130px;
 
   border-color: black;
   border-style: solid;
@@ -36,14 +35,29 @@
     border-left-color: #666;
     border-left-style: solid;
     border-left-width: 1px;
+
+    p {
+      margin: 0;
+      text-align: center;
+
+      &.challenge-duration {
+        font-size: 30px;
+      }
+    }
   }
 
-  .btn-challenge {
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    top: 18px;
-    border-radius: 30px;
+  .div-btn-challenge {
+
+    height: 0;
+
+    .btn-challenge {
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      top: -18px;
+      border-radius: 30px;
+      height: 36px;
+    }
   }
 
   .challenge-calendar {

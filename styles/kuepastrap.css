@@ -1,6 +1,5 @@
 .challenge-card-component {
   max-width: 400px;
-  min-height: 130px;
   border-color: black;
   border-style: solid;
   border-width: 1px;
@@ -29,12 +28,23 @@
   border-left-style: solid;
   border-left-width: 1px;
 }
-.challenge-card-component .btn-challenge {
+.challenge-card-component .challenge-dates p {
+  margin: 0;
+  text-align: center;
+}
+.challenge-card-component .challenge-dates p.challenge-duration {
+  font-size: 30px;
+}
+.challenge-card-component .div-btn-challenge {
+  height: 0;
+}
+.challenge-card-component .div-btn-challenge .btn-challenge {
   display: block;
   margin: 0 auto;
   position: relative;
-  top: 18px;
+  top: -18px;
   border-radius: 30px;
+  height: 36px;
 }
 .challenge-card-component .challenge-calendar {
   font-size: 30px;
